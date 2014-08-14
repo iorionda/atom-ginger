@@ -1,0 +1,14 @@
+{
+  "name": "atom-ginger",
+  "main": "./lib/atom-ginger",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["atom-ginger:toggle"],
+  "repository": "https://github.com/atom/atom-ginger",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

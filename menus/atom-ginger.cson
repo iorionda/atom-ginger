@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable atom-ginger': 'atom-ginger:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-ginger'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'atom-ginger:toggle' }
+      ]
+    ]
+  }
+]
